@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp"
+   >
+
+
+    <TextView
+        android:id="@+id/lblListHeader"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="?android:attr/expandableListPreferredItemPaddingLeft"
+        android:textSize="17dp"
+        android:text="Urs mubark"
+        android:layout_alignParentLeft="true"
+        android:textColor="@color/black" />
+
+     <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="16/05/2021"
+         android:textColor="@color/black"
+         android:layout_alignParentRight="true"
+         android:layout_marginRight="10dp"
+         />
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Syedi Adbulqaadir Hakimudin "
+        android:textColor="@color/black"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="10dp"
+        android:layout_below="@+id/lblListHeader"
+        android:paddingLeft="?android:attr/expandableListPreferredItemPaddingLeft"
+
+        />
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@color/black"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:layout_below="@+id/lblListHeader"
+        />//
+</RelativeLayout>
